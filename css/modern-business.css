@@ -37,11 +37,11 @@ transition: 1s ease-in-out;
 }
 
 .card-header {
-background-color:#87CEEB;
+background-color: #FF7F50
 }
 
 .btn {
-background-color: #87CEEB !important;
+background-color: #FF7F50 !important;
 }
 
 ul.social-links {
@@ -53,7 +53,7 @@ ul.social-links {
 .social-links li {
   display: inline-block;
   width: 5rem;
-  background-color:#87CEEB;
+  background-color:#FF7F50;
   text-align: center;
 }
 

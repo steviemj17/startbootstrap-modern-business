@@ -43,3 +43,28 @@ background-color:#87CEEB;
 .btn {
 background-color: #87CEEB !important;
 }
+
+ul.social-links {
+  list-style-type: none;
+  height: 48px;
+  line-height: 48px;
+}
+
+.social-links li {
+  display: inline-block;
+  width: 5rem;
+  background-color:#87CEEB;
+  text-align: center;
+}
+
+.social-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: white;
+}
+.social-links li:hover {
+  background-color: gray;
+}

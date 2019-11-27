@@ -31,6 +31,17 @@ body {
   flex: 0 1 auto;
   }
 
+  .smed i {
+    color: #FF7F50;
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 10px;
+  }
+
+  .smed i:hover {
+    color: white;
+  }
+
 img:hover {
 transform: scale(1.1);
 transition: 1s ease-in-out;

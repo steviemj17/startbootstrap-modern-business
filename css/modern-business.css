@@ -21,7 +21,7 @@ body {
   margin-bottom: 30px;
 }
 .footer-flex{
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   }
@@ -59,13 +59,13 @@ background-color: #FF7F50 !important;
   background-color: yellowgreen !important;
 }
 
-ul.social-links {
+.social-links {
   list-style-type: none;
   height: 48px;
   line-height: 48px;
 }
 
-.social-links li {
+.social-links {
   display: inline-block;
   width: 5rem;
   background-color:#FF7F50;
@@ -80,7 +80,7 @@ ul.social-links {
 .social-links a:hover {
   color: yellowgreen;
 }
-.social-links li:hover {
+.social-links a:hover {
   background-color: yellowgreen;
 }
 

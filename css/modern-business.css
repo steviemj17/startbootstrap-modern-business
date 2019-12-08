@@ -55,6 +55,10 @@ background-color: #FF7F50
 background-color: #FF7F50 !important;
 }
 
+.btn:hover {
+  background-color: yellowgreen !important;
+}
+
 ul.social-links {
   list-style-type: none;
   height: 48px;
@@ -74,8 +78,9 @@ ul.social-links {
 }
 
 .social-links a:hover {
-  color: white;
+  color: yellowgreen;
 }
 .social-links li:hover {
-  background-color: gray;
+  background-color: yellowgreen;
 }
+

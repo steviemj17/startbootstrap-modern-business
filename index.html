@@ -22,10 +22,10 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-off="50">
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Beanery Inc. - Premium Coffee Products</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -36,22 +36,14 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Locations</a>
+            <a href="#locations" class="nav-link active">Locations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Products</a>
+            <a href="#products" class="nav-link">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Our Story</a>
+            <a href="#ourstory" class="nav-link">Features</a>
           </li>
-        </ul>
-      </div>
-      <div class="nav-right smed">
-        <ul class="social-links">
-          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
         </ul>
       </div>
     </div>
@@ -102,43 +94,43 @@
   <!-- Page Content -->
   <div class="container">
 
-    <h1 class="my-4">Our Locations</h1>
+    <h2 class="my-4">Locations</h2>
 
     <!-- Marketing Icons Section -->
     <div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Seattle</h4>
+          <h3 class="h4 card-header">Seattle</h3>
           <div class="card-body">
             <p class="card-text">Seattle is where all the fun started. Home to our headquarters and main production
               site. 1000 Eastlake Ave. E, Seattle WA 98102
             </p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Los Angeles</h4>
+          <h3 class="h4 card-header">Los Angeles</h3>
           <div class="card-body">
             <p class="card-text">Check out lovely Venice Beach location on 209 Ventura Ave., Los Angeles, CA 94867</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">New York - COMING SOON!</h4>
+          <h3 class="h4 card-header">New York - COMING SOON!</h3>
           <div class="card-body">
             <p class="card-text">Finally, Beanery Inc. will have a presence on the East Coast. Our Manhattan location
               grand opening will be early in 2020. </p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
@@ -146,31 +138,30 @@
     <!-- /.row -->
 
     <!-- Portfolio Section -->
-    <h2>Our Products</h2>
-
+    <h2>Products</h2>
     <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="col-lg-4 portfolio-item">
         <div class="card h-100">
           <a href="#"><img class="card-img-top img-fluid" src="coffee business images/Product 1.jpg"
               alt="domestic style espresso machine"></a>
           <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Espresso Machines</a>
-            </h4>
+            <h3 class="h4 card-title">
+              <h3>Espresso Machines</h3>
+            </h3>
             <p class="card-text">The best espresso machines for both pros and amateurs that produce delightfully rich,
               flavorful espresso time and time again.
             </p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="col-lg-4 col-sm-12 portfolio-item">
         <div class="card h-100">
           <a href="#"><img class="card-img-top img-fluid" src="coffee business images/Product 2.png"
               alt="three coffee grinders"></a>
           <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Grinders</a>
-            </h4>
+            <h3 class="h4 card-title">
+              <h3>Grinders</h3>
+            </h3>
             <p class="card-text">Our grinders are true workhorses that you’ll see in many bustling coffee shops. They’re
               known for producing consistent, flavorful coffee and espresso grounds time and again, so they’re ideal for
               commercial and domestic uses.
@@ -178,57 +169,54 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="col-lg-4 col-sm-12 portfolio-item">
         <div class="card h-100">
           <a href="#"><img class="card-img-top img-fluid" src="coffee business images/Product 33.png"
               alt="barista supplies"></a>
           <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Coffee Shop Supplies</a>
-            </h4>
+            <h3 class="h4 card-title">
+              <h3>Coffee Shop Supplies</h3>
+            </h3>
             <p class="card-text">We offer high-quality supplies you need for your coffee shop, restaurant, break-room,
               or home. You'll find everything you need to make your coffee shop or home memorable.
             </p>
           </div>
         </div>
+
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+
+
+      <div class="col-lg-4 col-sm-4 portfolio-item">
         <div class="card h-100">
           <a href="#"><img class="card-img-top img-fluid" src="coffee business images/Testimony 1.png"
               alt="A woman smiling giving two thumbs up."></a>
           <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Customer Feedback</a>
-            </h4>
             <p class="card-text">I purchased my espresso machine form Beanery Inc. weeks ago, and everything works
               great. Thanks again for all your help.
-              I'll definitely be doing business with them again."</p>
+              I'll definitely be doing business with them again." - Customer Feedback</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="col-lg-4 col-sm-4 portfolio-item">
         <div class="card h-100">
           <a href="#"><img class="card-img-top img-fluid" src="coffee business images/Testimony 2.png"
               alt="three baristas behind a counter"></a>
           <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Customer Feedback</a>
-            </h4>
-            <p class="card-text">"Thank you for taking care of our needs right away. Now we can continue to serve great
-              coffee, thanks to Beanery Inc."</p>
+
+            <p class="card-text">"Thank you for taking care of our needs right away. Now we can continue to serve
+              great
+              coffee, thanks to Beanery Inc." - Barista Feedback</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="col-lg-4 col-sm-4 portfolio-item">
         <div class="card h-100">
           <a href="#"><img class="card-img-top img-fluid" src="coffee business images/Testimony 3.jpg"
               alt="man holding a coffee cup"></a>
           <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Customer Feedback</a>
-            </h4>
             <p class="card-text">"Beanery Inc. offers the coolest supplies for my coffee shop which keeps my
-              business profitable. Otherwise, I'd be hard pressed to maintain my fiance's lavish lifestyle."</p>
+              business profitable. Otherwise, I'd be hard pressed to maintain my fiance's lavish lifestyle." - Owner
+              Feedback</p>
           </div>
         </div>
       </div>
@@ -247,7 +235,6 @@
           <li>Customized Equipment</li>
           <li>Equipment Maintenance</li>
           <li>Regular Schedule Deliveries</li>
-
         </ul>
         <p>Watch Phil McKnight our Coffee Guru explain the inner workings of one of our top selling espresso machines,
           the Sage by Heston Blumenthal Dual Boiler Espresso Machine</p>
@@ -268,22 +255,27 @@
           Fund to support coffee farmers in Costa Rica.</p>
       </div>
       <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" href="#">See What's Brewing</a>
+        <a class="btn btn-lg btn-secondary btn-block">See What's Brewing</a>
       </div>
     </div>
-
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
-
   <footer class="py-5 bg-dark">
 
     <div class="container">
       <div class="footer-flex">
         <p class="footer-item-flex text-white">Copyright &copy; 2019</p>
+        <div class="nav-right smed">
+          <ul class="social-links">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+          </ul>
+        </div>
         <p class="footer-item-flex text-white">Stephen Johnson</p>
-
       </div>
     </div>
   </footer>
